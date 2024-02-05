@@ -1,7 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /*
 #191825
@@ -9,114 +9,91 @@
 #E384FF
 #FFA3FD 
 */
-body{
-    background-color:#ce68ed;
-    align-items: center;
+body {
+  background-color: #ce68ed;
+  align-items: center;
 }
 /* .container *{
     border:2px solid red;
 } */
-.container{
-    width:92vw;
-    height:92vh;
-    margin: 1rem auto;
-    background-color:#865DFF ;
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3rem;
-    gap:1rem;
+.container {
+  width: 92vw;
+  height: 92vh;
+  margin: 1rem auto;
+  background-color: #865dff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3rem;
+  gap: 1rem;
 }
-.container>h1{
-    color:#191825;
-    font-size: 55px;
-    font-family: 'Sedgwick Ave', cursive;
-    margin-bottom: 0.8rem;
+.container > h1 {
+  color: #191825;
+  font-size: 55px;
+  font-family: "Sedgwick Ave", cursive;
+  margin-bottom: 0.8rem;
 }
-.winner_Container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:5px;
-    width:70vw;
-    height: 70vh;
-    background-color: #865DFF;
-    padding: 5rem;
-    border-radius: 4rem;
+.winner_Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 70vw;
+  height: 70vh;
+  background-color: #865dff;
+  padding: 5rem;
+  border-radius: 4rem;
 }
-.winner_msg{
-    font-family: 'Sedgwick Ave', cursive;
-    font-size: 45px;
-    font-weight: 600;
-    padding: 5px auto;
+.winner_msg {
+  font-family: "Sedgwick Ave", cursive;
+  font-size: 45px;
+  font-weight: 600;
+  padding: 5px auto;
 }
-.n_game{
-    font-family: 'Sedgwick Ave', cursive;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 10px;
-    /* height: 2rem;
+.n_game {
+  font-family: "Sedgwick Ave", cursive;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+  /* height: 2rem;
     width: 4rem; */
-    background-color:#191825 ;
-    color:white;
-    border-radius: 7px;
+  background-color: #191825;
+  color: white;
+  border-radius: 7px;
 }
-.hide{
-    display:none;
+.hide {
+  display: none;
 }
-.semi_container{
-    display:grid;
-    border-radius: 3px;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
-    place-content: center;
-    gap:0.8rem;
+.semi_container {
+  display: grid;
+  border-radius: 3px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  place-content: center;
+  gap: 0.8rem;
 }
 
-.box{
-    width: 3.5rem;
-    height: 3.5rem;
-    border-radius: 1rem;
-    font-size: 3rem;
-    background-color: #FFA3FD ;
-    color: rgb(52, 16, 53);
+.box {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 1rem;
+  font-size: 3rem;
+  background-color: #ffa3fd;
+  color: rgb(52, 16, 53);
 }
-.btn_reset{
-    font-family: 'Sedgwick Ave', cursive;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 10px;
-    background-color:#191825 ;
-    color:white;
-    border-radius: 7px;
+.btn_reset {
+  font-family: "Sedgwick Ave", cursive;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+  background-color: #191825;
+  color: white;
+  border-radius: 7px;
 }
-/* .semi_container{
-    display: none;
-} */
-@media only screen and (max-width: 600px) {
-
-    body{
-        background-color: black;
-    }
+@media only screen and(min-width:700px) {
     .container{
-        background-color: black;
-    }
-    .box{
-        width:4rem;
-        height:4rem;
-    }
-    .semi_container{
-        width:90%;
-        height:90%;
-    }
-    .box{
-        width: 10rem;
-        height: 10rem;
-        border-radius: 1rem;
-        font-size: 3rem;
-        background-color: #FFA3FD ;
-        color: rgb(52, 16, 53);
+        background-color: aqua;
     }
 }

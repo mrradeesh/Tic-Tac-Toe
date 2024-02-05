@@ -51,5 +51,4 @@ var checkWin = () => {
         }
       }
     }
-  };
-// newgame_btn.addEventListener("click",()=>{alert("clicked on reset")});
+};
