@@ -99,7 +99,7 @@ body {
 
 @media screen and (max-width:600px){
   .container{
-    background-color: yellow;
+    /*background-color: yellow;*/
     gap:3rem;
   }
   .box {
