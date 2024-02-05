@@ -97,12 +97,10 @@ body{
 } */
 @media only screen and (max-width: 600px) {
 
-body{
-    background-color: black;
-}
-}
+    body{
+        background-color: black;
+    }
     .container{
-        /* background-color:#191825; */
         background-color: black;
     }
     .box{
